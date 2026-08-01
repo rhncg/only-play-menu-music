@@ -7,7 +7,7 @@ using namespace geode::prelude;
 class $modify(GameManager) {
     void fadeInMusic(gd::string path) {
         static const std::unordered_set<std::string> blocked = {
-            "secretLoop.mp3", "secretLoop02.mp3", "secretLoop03.mp3"};
+            "secretLoop.mp3", "secretLoop02.mp3", "secretLoop03.mp3", "tower01.mp3"};
 
         if (blocked.count(path)) {
             return;

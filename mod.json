@@ -8,11 +8,12 @@
 	},
 	"id": "rcg21.only-play-menu-music",
 	"name": "Only Play Menu Music",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "RCG21",
 	"description": "",
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
 	},
-	"tags": ["enhancement", "offline", "music"]
+	"tags": ["enhancement", "offline", "music"],
+	"links": {"source": "https://github.com/rhncg/only-play-menu-music"}
 }
